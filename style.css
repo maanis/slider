@@ -101,7 +101,7 @@ i{
     position: absolute;
     background-size: cover;
     background-position: 50% 50%;
-    top: 45%;
+    top: 48%;
     z-index: 10;
     border-radius: 20px;
     transition: .4s;
@@ -126,6 +126,7 @@ i{
 
 .slider .content p{
     margin: 8px 0;
+    width: 400px;
     font-size: 17px;
     animation: text 1.2s ease-in-out 1 forwards;
 }
@@ -176,7 +177,7 @@ i{
     content: "";
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 60%;
     background: linear-gradient(90deg, #111, transparent);
     border-top-left-radius: 24px;
     border-bottom-left-radius: 24px;
@@ -189,6 +190,7 @@ i{
     left: 0;
     border-radius: 24px;
     transform: translate(0, 0);
+    background-position: top;
     height: 100%;
     width: 100%;
     transition: .6s ease;
@@ -198,6 +200,7 @@ i{
 .slider .item:nth-child(4),
 .slider .item:nth-child(5) {
     box-shadow: 6px 8px 15px #111;
+    
 }
 
 .slider .item:nth-child(3) {
