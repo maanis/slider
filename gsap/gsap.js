@@ -22,7 +22,6 @@ tl
         // delay:1,
         ease: Circ.easeInOut
     })
-
     .to('.reveal .parent .child', {
         display: 'none'
     })
@@ -50,6 +49,7 @@ tl
         delay: -1.6,
         ease: Expo.easeInOut
     })
+
 tl.from('.boxB', {
     scale: 1.3,
     opacity: 0,
@@ -120,12 +120,6 @@ gsap.from('.logo', {
     x: -45,
     delay: 3
 })
-// gsap.from('li',{
-//     opacity:0,
-//     y:45,
-//     delay:5.3,
-//     stagger:.2
-// })
 gsap.from('.boxA-text', {
     y: 45,
     opacity: 0,
