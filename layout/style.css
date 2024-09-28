@@ -22,7 +22,18 @@ body{
 
 li{
     cursor: pointer;
+    position: relative;
+    /* top: 12%; */
+    /* height: 48px; */
+    display: flex;
+    align-items: center;
+    transition: all .3s ease;
 }
+
+li:hover{
+    transform: translateY(-8px);
+}
+
 
 .box1{
     /* height: calc(94vh - 57px); */
@@ -102,4 +113,11 @@ li{
 }
 .boxB:hover .gradient{
     height: 100%;
+}
+.boxB{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0,-30%);
+  width: calc(30% - 16px);
 }

@@ -1,11 +1,18 @@
 var tl = gsap.timeline()
-gsap.from('.boxB',{
-    duration:1.7,
-    x:-200,
-    // width:"15%",
-    y:100,
+
+tl.from('.boxB',{
+    scale:1.3,
+    opacity:0,
     delay:1,
-    scale:1.2
+    duration:.5
+})
+tl.to('.boxB',{
+    top:0,
+    right:0,
+    duration:.7,
+    left:'100%',
+    transform: 'translate(-100%,0)',
+    
 })
 gsap.from('.nav',{
     scale:0,
@@ -56,12 +63,6 @@ gsap.from('.logo',{
     x:-45,
     delay:3
 })
-gsap.from('li',{
-    opacity:0,
-    y:45,
-    delay:3,
-    stagger:.2
-})
 gsap.from('.boxA-text',{
     y:45,
     opacity:0,
@@ -83,6 +84,7 @@ gsap.from('.boxc-text',{
 
 gsap.from('.img',{
     scale:0,
+    duration:.5,
     opacity:0,
     delay:3
 })

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.green, .white{
+    height: 0%;
+    /* background-color: cyan; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* z-index: 2; */
+}
+.color{
+    color: #27de7c;
+}
+.loaderr{
+    /* background-color: red; */
+    border-right: 4px solid #ddd;
+    border-left: 4px solid #ddd;
+    border-radius: 50%;
+}
+
+.parent{
+    /* background-color: red; */
+    overflow-y: hidden;
+    /* width: 100%; */
+    display: inline-block;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.child span{
+    /* transform: translateY(20px); */
+display: inline-block;
+}
