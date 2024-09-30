@@ -77,6 +77,7 @@ gsap.from('.nav', {
 gsap.from('.boxA', {
     scale: 0,
     opacity: 0,
+    duration:.4,
     ease: Circ.easeOut,
     x: 320,
     y: 145,

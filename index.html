@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,12 +13,30 @@
 </head>
 
 <body style="background-color: #212121;">
-    <div class="container">
+    <div class="containerr">
+
+        <!-- <div class="hamburgerr absolute h-[200px] w-full bg-[#ffffff87] right-0 top-[65px] z-50">
+            <ul class="flex flex-col gap-[18px] absolute top-[10%] w-full left-[8%]">
+                <li class="w-full ab"><a class="text-black bg-green-700 text-3xl" href="#">Home</a></li>
+                <li><a class="text-black text-3xl" href="/index.html">Faculty</a></li>
+                <li><a class="text-black text-3xl" href="#">Contact</a></li>
+            </ul>
+        </div> -->
+
+        <div class="nav h-[65px] flex justify-between items-center shadow-md px-[48px] w-full absolute z-10">
+            <h2 class="text-[#323232] font-extrabold text-[28px] font">Sailee</h2>
+            <ul class="flex gap-8  text-lg">
+                <li><a class="text-black" href="/gsap/loader.html">Home</a></li>
+                <li><a class="text-black" href="/index.html">Faculty</a></li>
+                <li><a class="text-black" href="#">Contact</a></li>
+            </ul>
+        </div>
         <div class="hero">
             <div class="hero-img"></div>
         </div>
         <div class="blur"></div>
         <div class="main">
+
             <div class="btn">
                 <div class="left btns">
                     <i class="fa-solid fa-arrow-left"></i>
