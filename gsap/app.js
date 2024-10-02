@@ -18,3 +18,29 @@ let revealClass = () => {
     })
 }
 revealClass()
+
+document.querySelector('.main').addEventListener('mousemove',(dets)=>{
+    
+    gsap.to('.cursor',{
+        x:dets.x,
+        y:dets.y,
+        // opacity:0,
+        duration:.3,
+        // display:'block',
+        backgroundColor:"#14CF93",
+    })
+})
+document.querySelector('.boxB').addEventListener('mousemove',()=>{
+    gsap.to('.cursor',{
+        scale:1,
+        opacity:.8
+
+    })
+})
+document.querySelector('.boxB').addEventListener('mouseleave',()=>{
+    gsap.to('.cursor',{
+        scale:0,
+        opacity:0
+        // duration:0,
+    })
+})

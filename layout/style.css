@@ -13,8 +13,11 @@ body{
     width: 100%;
     /* overflow: hidden; */
 }
+.cursor{
+    z-index: 11;
+}
 ::selection{
-    color: #27de7c;
+    color: #14CF93;
 }
 .inputs::placeholder{
     color: #212121;
@@ -93,10 +96,10 @@ li:hover{
     position: absolute;
     width: 100%;
     /* top: 0; */
-    height: 0%;
+    height: 0;
     bottom: 0;
     background: linear-gradient(0, #212121d8, transparent, transparent);
-    transition: height .3s ease;
+    transition: all .3s ease;
 }
 .name{
     position: absolute;

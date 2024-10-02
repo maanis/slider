@@ -10,13 +10,15 @@
     box-sizing: border-box;
     font-family: 'poppins';
 }
-
+::selection{
+    color: #14CF93;
+}
 .font{
     font-family: "Dancing Script";
 }
 
 .color{
-    color: #27de7c;
+    color: #14CF93;
 }
 
 html,

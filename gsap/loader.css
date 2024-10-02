@@ -11,6 +11,7 @@ body{
     width: 100%;
 }
 
+
 .green, .white{
     height: 0%;
     /* background-color: cyan; */
@@ -20,7 +21,7 @@ body{
     /* z-index: 2; */
 }
 .color{
-    color: #27de7c;
+    color: #14CF93;
 }
 .loaderr{
     /* background-color: red; */
